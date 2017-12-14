@@ -179,7 +179,7 @@ class SunPathForm(forms.Form):
         datetimes = (sun.datetime for sun in suns)
 
         # draw the curves to canvas
-        self.conduit = DrawSunPath(list(analemma) + list(compass), sun_pts)
+        self.conduit = DrawSunPath(list(analemma) + list(compass) + list(daily), sun_pts)
         self.conduit.Enabled = True
         # add lights
         for sun in suns:
