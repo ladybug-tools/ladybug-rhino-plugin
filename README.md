@@ -1,4 +1,4 @@
-# ladybug-rhino
+# ladybug-rhino-plugin
 Ladybug plugin for Rhino 6
 
 Ladybug for Rhino will bring Ladybug functionalities to Rhino (without using Grasshopper).
